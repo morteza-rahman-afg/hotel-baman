@@ -50,7 +50,7 @@ function Comments() {
             <p>{comment.text}</p>
           </div>
 
-          <div className=" w-[85%] flex flex-col items-start gap-y-2 font-DanaMedium border-[2px] border-slate-300 rounded-2xl p-4 shadow-lg -translate-x-[70px]  z-10 relative bg-white">
+          <div className=" w-[85%] flex flex-col items-start gap-y-2 font-DanaMedium border-[2px] border-slate-300 rounded-2xl p-4 shadow-lg -translate-x-[50px]  z-10 relative bg-white">
             <div className=" flex items-center gap-x-3">
               <img
                 src={comment.AdminNswer.image}

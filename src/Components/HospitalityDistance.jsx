@@ -4,7 +4,7 @@ function HospitalityDistance() {
       <h2 className=" font-DanaDemiBold text-2xl font-bold text-orange-500">
         فاصله مهمانپذیر مشهد با مراکز مهم شهر
       </h2>
-      <div className=" bg-white w-full h-[300px] flex flex-col items-start gap-y-3 p-4 child:text-slate-600 child:font-DanaMedium">
+      <div className=" bg-white w-full flex flex-col items-start gap-y-3 p-4 child:text-slate-600 child:font-DanaMedium">
         <p>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
           استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در

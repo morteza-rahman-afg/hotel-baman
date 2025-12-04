@@ -25,13 +25,13 @@ function MehmanPazirJahan() {
           <HiOutlineLocationMarker />
         </p>
       </div>
-      <div className=" w-full h-28 bg-orange-500 rounded-3xl flex flex-col items-center justify-between py-4 px-20 text-white font-DanaMedium">
+      <div className=" w-full h-28 bg-orange-500 rounded-3xl flex flex-col items-center justify-between py-3 px-2 text-white font-DanaMedium">
         <span className=" text-xl">شروع از تاریخ</span>
-        <div className=" w-full flex items-center justify-center child:text-base gap-x-2">
-          <span className=" line-through text-black decoration-red-600 decoration-2">
+        <div className=" w-full flex items-center justify-center child:text-base gap-x-1">
+          <span className=" line-through text-black decoration-red-600 decoration-2 text-sm">
             1,200,000 تومان
           </span>
-          <span>1,098,000 تومان</span>
+          <span className=" text-sm">1,098,000 تومان</span>
         </div>
       </div>
       <div className=" w-full">
