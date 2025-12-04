@@ -2,12 +2,12 @@ const commentsUser = [
   {
     id: 1,
     name: "کاربر عادی",
-    image: "/user.png",
+    image: "./public/user.png",
     history: new Date().toLocaleDateString("fa-IR"),
     text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،",
     AdminNswer: {
       name: "مدیریت",
-      image: "/logo-dark.png",
+      image: "./public/logo-dark.png",
       history: new Date().toLocaleDateString("fa-IR"),
       text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،",
     },
@@ -15,12 +15,12 @@ const commentsUser = [
   {
     id: 2,
     name: "کاربر عادی",
-    image: "/user.png",
+    image: "./public/user.png",
     history: new Date().toLocaleDateString("fa-IR"),
     text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،",
     AdminNswer: {
       name: "مدیریت",
-      image: "/logo-dark.png",
+      image: "./public/logo-dark.png",
       history: new Date().toLocaleDateString("fa-IR"),
       text: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،",
     },

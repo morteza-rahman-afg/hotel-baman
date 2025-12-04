@@ -38,14 +38,14 @@ function MehmanPazirJahan() {
         <video
           controls
           className=" w-full h-[300px] shadow-2xl rounded-2xl"
-          poster="/1178.jpg"
+          poster="./public/1178.jpg"
         >
-          <source src="/v.mp4" type="video/mp4" />
+          <source src="./public/v.mp4" type="video/mp4" />
         </video>
       </div>
       <div className=" w-full relative">
         <img
-          src="\13736.jpg"
+          src="./public/13736.jpg"
           alt="13736"
           className=" w-full h-[450px] object-cover rounded-3xl"
         />
