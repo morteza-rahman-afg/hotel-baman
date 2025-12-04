@@ -27,7 +27,7 @@ function MehmanPazirJahan() {
       </div>
       <div className=" w-full h-28 bg-orange-500 rounded-3xl flex flex-col items-center justify-between py-4 px-20 text-white font-DanaMedium">
         <span className=" text-xl">شروع از تاریخ</span>
-        <div className=" w-full flex items-center justify-center child:text-xl gap-x-5">
+        <div className=" w-full flex items-center justify-center child:text-xl gap-x-2">
           <span className=" line-through text-black decoration-red-600 decoration-2">
             1,200,000 تومان
           </span>
