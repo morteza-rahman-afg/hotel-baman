@@ -17,9 +17,9 @@ function Form() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="mt-12 p-5 w-full bg-slate-200 rounded-2xl flex flex-col items-start gap-y-5 child:w-full child:h-12 child:rounded-2xl shadow-xl"
+      className="mt-12 p-5 w-full bg-slate-200 rounded-2xl flex flex-col items-start gap-y-5 child:w-full child:rounded-2xl shadow-xl"
     >
-      <h2 className=" font-DanaDemiBold text-2xl text-slate-600">
+      <h2 className=" font-DanaDemiBold text-2xl text-slate-600 mb-1">
         لطفا نظرات، انتقادات و پیشنهادات و امتیازات خود را در مورد اقامت و قبل
         از اقامت با ما در میان بگذارید
       </h2>
@@ -27,14 +27,14 @@ function Form() {
         {...register("name")}
         type="text"
         name="name"
-        className=" mt-16 placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
+        className=" h-12 placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
         required
         placeholder="نام و نام خانوادگی"
       />
       <input
         {...register("num")}
         name="num"
-        className=" placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm text-right pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
+        className="h-12 placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm text-right pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
         type="tel"
         required
         placeholder="همراه"
@@ -42,7 +42,7 @@ function Form() {
       <input
         {...register("text")}
         name="text"
-        className=" placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
+        className="h-12 placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
         type="text"
         required
         placeholder="نظر خورد را وارد کنید."

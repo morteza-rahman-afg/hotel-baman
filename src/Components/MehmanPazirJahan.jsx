@@ -8,15 +8,15 @@ function MehmanPazirJahan() {
           مهمان پذیر جهان مشهد
         </h2>
         <div className=" flex items-center gap-x-4">
-          <div className=" flex items-center justify-center  gap-x-1 font-DanaMedium">
-            <p>هتل یک ستاره</p>
+          <div className=" flex items-center justify-center font-DanaMedium">
+            <p className=" text-sm">هتل یک ستاره</p>
             <HiOutlineStar className=" text-yellow-400 w-6 h-6" />
           </div>
-          <div className="flex items-center gap-x-4">
-            <p className=" font-DanaMedium">(4 بازخورد)</p>
-            <p className=" flex items-center justify-center gap-x-2 bg-orange-500 text-white w-16 h-7 rounded-xl font-DanaMedium leading-[28px]">
-              <span>4.0</span>
-              <HiOutlineStar className=" w-5 h-5" />
+          <div className="flex items-center gap-x-1">
+            <p className=" font-DanaMedium text-sm">(4 بازخورد)</p>
+            <p className=" flex items-center justify-center bg-orange-500 text-white w-14 h-6 rounded-xl font-DanaMedium leading-[28px]">
+              <span className=" text-xs">4.0</span>
+              <HiOutlineStar className=" w-4 h-4" />
             </p>
           </div>
         </div>
