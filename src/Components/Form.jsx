@@ -17,7 +17,7 @@ function Form() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="mt-12 p-5 w-full bg-slate-200 rounded-2xl flex flex-col items-start gap-y-4 child:w-full child:h-12 child:rounded-2xl shadow-xl"
+      className="mt-12 p-5 w-full bg-slate-200 rounded-2xl flex flex-col items-start gap-y-5 child:w-full child:h-12 child:rounded-2xl shadow-xl"
     >
       <h2 className=" font-DanaDemiBold text-2xl text-slate-600">
         لطفا نظرات، انتقادات و پیشنهادات و امتیازات خود را در مورد اقامت و قبل
@@ -27,7 +27,7 @@ function Form() {
         {...register("name")}
         type="text"
         name="name"
-        className=" mt-12 placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
+        className=" mt-16 placeholder:font-DanaMedium placeholder:text-slate-400 placeholder:text-sm pr-4 border-[2px] focus:border-slate-500 outline-none border-slate-300"
         required
         placeholder="نام و نام خانوادگی"
       />

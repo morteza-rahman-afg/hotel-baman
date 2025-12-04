@@ -27,7 +27,7 @@ function MehmanPazirJahan() {
       </div>
       <div className=" w-full h-28 bg-orange-500 rounded-3xl flex flex-col items-center justify-between py-4 px-20 text-white font-DanaMedium">
         <span className=" text-xl">شروع از تاریخ</span>
-        <div className=" w-full flex items-center justify-between child:text-xl">
+        <div className=" w-full flex items-center justify-center child:text-xl gap-x-5">
           <span className=" line-through text-black decoration-red-600 decoration-2">
             1,200,000 تومان
           </span>
@@ -38,14 +38,14 @@ function MehmanPazirJahan() {
         <video
           controls
           className=" w-full h-[300px] shadow-2xl rounded-2xl"
-          poster="./public/1178.jpg"
+          poster="/hotel-baman/1178.jpg"
         >
-          <source src="./public/v.mp4" type="video/mp4" />
+          <source src="/hotel-baman/v.mp4" type="video/mp4" />
         </video>
       </div>
       <div className=" w-full relative">
         <img
-          src="./public/13736.jpg"
+          src="/hotel-baman/13736.jpg"
           alt="13736"
           className=" w-full h-[450px] object-cover rounded-3xl"
         />

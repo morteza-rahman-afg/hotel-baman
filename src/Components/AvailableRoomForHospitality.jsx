@@ -7,14 +7,14 @@ function AvailableRoomForHospitality() {
         درباره مهمان پذیر جهان
       </h2>
       <CartRoom
-        imgUrl={"./public/13733.jpg"}
+        imgUrl={"/hotel-baman/13733.jpg"}
         nameRoom={"هتل"}
         feature={"اقامت همراه با صبحانه ناهار شام(منوی انتخابی)"}
         price={1200000}
         off={15}
       />
       <CartRoom
-        imgUrl={"./public/13734.jpg"}
+        imgUrl={"/hotel-baman/13734.jpg"}
         nameRoom={"اتاق چهار تخته فولبرد با ظرفیت چهار نفر"}
         feature={"اقامت همراه با صبحانه ناهار شام(منوی انتخابی)"}
         price={4500000}
